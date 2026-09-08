@@ -122,10 +122,20 @@ export default function Home() {
         </section>
 
         <section className="on-air section-shell" id="on-air" aria-labelledby="on-air-title">
-          <div><p className="section-index">01 / On air</p><h2 id="on-air-title">Coming soon...</h2></div>
+          <div><p className="section-index">01 / On air</p><h2 id="on-air-title">When to watch...</h2></div>
           <div className="schedule-card"><span className="status-dot" aria-hidden="true" /><div>
-            <p className="schedule-label">FW26 + SS27</p><p className="schedule-time">Coming soon...</p>
-            <p>Listen online through WMUC&apos;s website. The confirmed time will be posted here as soon as it is available.</p>
+            <p className="schedule-label">FW26 + SS27</p><p className="schedule-time">Tuesday @ 12AM EST</p>
+            <p>
+              Listen online through WMUC&apos;s{" "}
+              <a
+                href="https://wmuc.umd.edu/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                website
+              </a>
+              .
+            </p>
           </div></div>
         </section>
 
@@ -184,7 +194,7 @@ export default function Home() {
               underground discoveries. Since then, it has evolved into a radio show
               with the lovely folks at WMUC, while still continuing as a side project
               for me to share my passion for music with the world. I hope you tune in
-              every ______ at ______ and shoot me a follow on Instagram!
+              every Tuesday at 12AM and shoot me a follow on Instagram!
             </p>
 
             <p className="signature">— love, rafael</p>
