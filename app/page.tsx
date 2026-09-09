@@ -115,7 +115,7 @@ export default function Home() {
               </a>
               ), based in the University of Maryland, College Park.</p>
             <div className="hero-actions">
-              <a className="button" href="https://wmuc.umd.edu/show/253547" target="_blank" rel="noreferrer">Listen on WMUC <span aria-hidden="true">↗</span></a>
+              <a className="button" href="https://wmuc.umd.edu/show/311725" target="_blank" rel="noreferrer">Listen on WMUC <span aria-hidden="true">↗</span></a>
               <a className="text-link" href="#setlists">Browse past setlists ↓</a>
             </div>
           </div>
@@ -141,7 +141,7 @@ export default function Home() {
 
         <section className="section-shell" id="setlists" aria-labelledby="setlists-title">
           <div className="section-heading"><div><p className="section-index">02 / Setlists</p><h2 id="setlists-title">Recently on astilbe...</h2></div>
-            <a className="text-link" href="https://wmuc.umd.edu/show/253547" target="_blank" rel="noreferrer">Full WMUC archive ↗</a>
+            <a className="text-link" href="https://wmuc.umd.edu/show/311725" target="_blank" rel="noreferrer">Full WMUC archive ↗</a>
           </div>
           <div className="card-grid">
             {setlists.map((setlist) => (
@@ -213,7 +213,7 @@ export default function Home() {
           sizes="220px"
         />
       </a><div>
-          <a href="https://wmuc.umd.edu/show/253547" target="_blank" rel="noreferrer">WMUC ↗</a>
+          <a href="https://wmuc.umd.edu/show/311725" target="_blank" rel="noreferrer">WMUC ↗</a>
           <a href="https://www.instagram.com/astilbe.wav/" target="_blank" rel="noreferrer">Instagram ↗</a>
         </div></footer>
     </>
