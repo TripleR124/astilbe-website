@@ -1,4 +1,5 @@
 import Image from "next/image";
+import setlistData from "../data/setlists.json";
 
 type Setlist = {
   date: string;
@@ -7,32 +8,7 @@ type Setlist = {
   spotifyEmbedUrl: string;
 };
 
-const setlists: Setlist[] = [
-  {
-    date: "May 4, 2026",
-    title: "mar/apr recap",
-    description:
-      "my picks for the best songs and albums from march and april!",
-    spotifyEmbedUrl:
-      "https://open.spotify.com/embed/playlist/404GsUnDPa4XknSueJyEVU?utm_source=generator&si=dacf0f7eaced473e",
-  },
-  {
-    date: "April 27, 2026",
-    title: "press play",
-    description:
-      "the rhythm games episode featuring select hits from osu! and geometry dash alike.",
-    spotifyEmbedUrl:
-      "https://open.spotify.com/embed/playlist/6FOeLS59nJ3exT0DvTY9WD?utm_source=generator&si=5e947406163d4cd7",
-  },
-  {
-    date: "April 20, 2026",
-    title: "sonatine",
-    description:
-      "my favorite korean pop songs of all time (old and new)!",
-    spotifyEmbedUrl:
-      "https://open.spotify.com/embed/playlist/2GBahKHB7Jgg56UXviawiC?utm_source=generator&si=3f0fd9880dcf489c",
-  },
-];
+const setlists: Setlist[] = setlistData;
 
 type SetlistCardProps = {
   setlist: Setlist;
